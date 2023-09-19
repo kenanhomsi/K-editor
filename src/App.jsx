@@ -115,7 +115,7 @@ function centerAspectCrop(mediaWidth,mediaHeight,aspect) {
 }
 function App() {
   const [rotate_State,setrotate_State]=useState(default_rotate);
-  const [image,setImage]=useState('src/assets/main.jpg');
+  const [image,setImage]=useState('https://i.pinimg.com/564x/83/ff/c5/83ffc5da6b4cd50c7100471155964351.jpg');
   const [selectedOptionIndex,setselectedOptionIndex]=useState(0);
   const [options,setOptions]=useState(Default_options);
   const SelectedOption=options[selectedOptionIndex];
