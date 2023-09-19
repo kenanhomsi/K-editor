@@ -1,0 +1,12 @@
+.Silder-container{
+    width: 80%;
+}
+ .Silder-container input{
+    width: 100%;
+    accent-color: var(--main-color);
+    background-color: var(--bodyColor-first);
+
+    
+} 
+
+
